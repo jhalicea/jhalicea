@@ -1,50 +1,29 @@
 # Jon Alicea
 
-### Building human-controlled AI systems that preserve context, evidence, privacy, and human authority.
+**Applied AI systems builder focused on trustworthy tools, privacy, and evidence.**
 
-I am the creator of **HumanOS**, a local-first personal AI runtime and applied research project. My work sits at the intersection of AI systems, agent evaluation, security, DFIR, OSINT, knowledge architecture, and real-world operations.
+I design, build, and evaluate systems that connect models to useful work while keeping permissions, provenance, and human judgment visible.
 
-## Flagship project
+## Featured project: HumanOS
 
-### [HumanOS](https://github.com/jhalicea/humanos)
+[HumanOS](https://github.com/jhalicea/humanos) is an active early-stage, local-first AI runtime and engineering project. Its public Runtime 0.1 includes a terminal Mirror, local Ollama inference, durable Notebook transactions, governed tool capabilities, explicit recovery states, and a generic mastery engine with synthetic examples.
 
-HumanOS explores how an AI system can remain useful over time without becoming opaque or taking control away from its human operator.
+The code separates the interface, model adapter, context routing, permissions, execution, and durable records. Tests cover normal operation as well as denial, interruption, recovery, and integrity failures. Hosted-model support, a finished desktop product, and fully autonomous agent scheduling are not claimed.
 
-The current public runtime includes:
+- [HumanOS overview](https://github.com/jhalicea/humanos#readme)
+- [Architecture and documentation map](https://github.com/jhalicea/humanos/blob/runtime-0.1/docs/index.md)
+- [Testing and evidence](https://github.com/jhalicea/humanos/blob/runtime-0.1/docs/testing-and-evidence.md)
 
-- Local model execution through Ollama
-- Durable Life Notebook transactions and recovery records
-- Governed tool boundaries and explicit authorization
-- Integrity checks, provenance, and auditable state transitions
-- Tests covering persistence, recovery, permissions, and failure behavior
-- Provider-independent interfaces designed for future portability
+## Other project
 
-**Project status:** active early-stage runtime. Implemented behavior, specifications, and future work are intentionally distinguished.
-
-## Applied systems project
-
-### [BodyFixOS](https://github.com/jhalicea/BodyFixOS)
-
-A business-systems and automation design for a premium corrective-bodywork practice. It translates more than a decade of hands-on service experience into clear workflows, responsible automation, measurable operations, and a better client journey.
-
-## What I am working on
-
-- Reliable human–AI collaboration and long-term continuity
-- Agent evaluation, failure analysis, and evidence-based verification
-- Privacy-conscious local AI architecture
-- DFIR, OSINT, and investigative reasoning
-- Adaptive learning systems connected to real projects
+[BodyFixOS](https://github.com/jhalicea/BodyFixOS) explores privacy-conscious business workflows and responsible automation. Its repository describes a public design and implementation roadmap; it does not claim that every planned capability is deployed.
 
 ## Engineering approach
 
-**DEFINE → BASELINE → IMPLEMENT → TEST → VERIFY → PRESERVE**
+**Understand → define scope → design → implement → test failure paths → verify → document.**
 
-I favor small reversible changes, explicit boundaries, reproducible tests, honest capability labels, and human approval for consequential actions.
+I value small reversible changes, synthetic public examples, explicit authorization, reproducible evidence, and clear separation between implemented behavior and future work.
 
-## Technologies
+## Background
 
-Python · SQLite · Git/GitHub · Ollama · JavaScript · HTML/CSS · REST APIs · AI evaluation
-
----
-
-**Open to:** applied AI systems, agent evaluation, AI operations, security-adjacent engineering, technical research, and ambitious teams building trustworthy autonomous systems.
+My experience spans information systems, technical project work, web development, technical support, entrepreneurship, and high-trust client work. I hold a B.B.A. in Information Systems with a minor in Computer Science.
